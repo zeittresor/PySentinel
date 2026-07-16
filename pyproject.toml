@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysentinel"
+version = "0.9.2"
+description = "Passive-first security scanner for installed Python applications, dependencies, Pickle and tensor/model files."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "zeittresor"}]
+dependencies = ["PyQt6>=6.6"]
+
+[project.scripts]
+pysentinel = "pysentinel.app:main"
+
+[tool.setuptools.packages.find]
+include = ["pysentinel*"]
+
+[tool.setuptools.package-data]
+pysentinel = ["resources/lang/*.json", "resources/themes/*.qss"]

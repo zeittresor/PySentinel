@@ -1,0 +1,83 @@
+QWidget {
+    background: #1a0704;
+    color: #ffe4d6;
+    font-family: "Segoe UI";
+    font-size: 10pt;
+}
+QMainWindow, QTabWidget::pane, QGroupBox, QPlainTextEdit, QLineEdit,
+QComboBox, QSpinBox, QTableWidget, QScrollArea {
+    background: #2a0d08;
+    border: 1px solid #7c2d12;
+    border-radius: 5px;
+}
+QGroupBox {
+    margin-top: 12px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 4px;
+}
+QPushButton {
+    background: #ff5a1f;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px 12px;
+    font-weight: 600;
+}
+QPushButton:disabled {
+    background: #7c2d12;
+    color: #9ca3af;
+}
+QPushButton:hover {
+    border: 1px solid #ffffff;
+}
+QLineEdit, QComboBox, QSpinBox, QPlainTextEdit {
+    padding: 5px;
+    selection-background-color: #ff5a1f;
+}
+QHeaderView::section {
+    background: #7c2d12;
+    color: #ffe4d6;
+    padding: 6px;
+    border: 0;
+}
+QTableWidget {
+    gridline-color: #7c2d12;
+}
+QProgressBar {
+    border: 1px solid #7c2d12;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 20px;
+}
+QProgressBar::chunk {
+    background: #ff5a1f;
+    border-radius: 4px;
+}
+QTabBar::tab {
+    background: #2a0d08;
+    padding: 8px 13px;
+    border: 1px solid #7c2d12;
+}
+QTabBar::tab:selected {
+    background: #ff5a1f;
+    color: #ffffff;
+}
+QLabel#summaryValue {
+    font-size: 18pt;
+    font-weight: 700;
+    color: #ff5a1f;
+}
+QScrollBar:vertical {
+    background: #2a0d08;
+    width: 14px;
+}
+QScrollBar::handle:vertical {
+    background: #7c2d12;
+    min-height: 24px;
+    border-radius: 6px;
+}
