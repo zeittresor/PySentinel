@@ -5,6 +5,8 @@ Python applications. It inventories files and dependencies, inspects Python
 source code, analyzes Pickle opcodes without deserializing the object, recognizes
 common tensor/model containers and optionally orchestrates external scanners.
 
+<img width="1319" height="875" alt="pysentinel" src="https://github.com/user-attachments/assets/cfd51e8a-c855-454d-ae68-c6fa5b82484c" />
+
 ## Safety model
 
 PySentinel does **not** import the target project and does not execute its Python
